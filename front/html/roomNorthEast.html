@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        body{
+            background-color: rgb(203, 90, 15);
+        }
+        p{
+            color:white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 23px;
+        }
+        a {
+            color: rgb(30, 136, 58);
+          }
+            </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body onload="makeHotter()">
+    <p id="currentRoom">The North East Room</p>
+    <p id="heat">The heat is 0</p>
+    <p id="volcanoBall">The volcano ball</p>
+ 
+
+    <a href="../html/roomNorthWest.html"><button>Go to North West room</button></a><a href="../html/roomSouthWest.html"><button>Go to South West room</button></a><a href="../html/roomSouthEast.html"><button>Go to South East room</button></a>
+    <button onclick="useWater()">Use water</button>
+    <p id="waterItem"></p>
+    <br>
+    <p id="lives"></p>
+    <script src="../javascript/roomNavigator.js"></script>
+</body>
+</html>

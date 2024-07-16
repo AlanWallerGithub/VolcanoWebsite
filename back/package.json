@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.2",
+    "prisma": "^5.16.2",
+    "pug": "^3.0.3"
+  },
+  "scripts": {
+    "start": "nodemon node server.js"
+  },
+  "name": "back",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "my new project",
+  "main": "server.js",
+  "author": "alan waller",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
